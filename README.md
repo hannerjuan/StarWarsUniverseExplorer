@@ -1,24 +1,24 @@
 # Star Wars Universe Explorer 🌌
 
-**Star Wars Universe Explorer** es una aplicación Android nativa desarrollada con **Kotlin** y **Jetpack Compose**. [cite_start]Su propósito es servir como una guía interactiva del universo Star Wars, consumiendo datos en tiempo real de la API pública [SWAPI](https://swapi.dev)[cite: 7].
+**Star Wars Universe Explorer** es una aplicación Android nativa desarrollada con **Kotlin** y **Jetpack Compose**. Su propósito es servir como una guía interactiva del universo Star Wars, consumiendo datos en tiempo real de la API pública [SWAPI](https://swapi.dev).
 
-Este proyecto implementa la arquitectura **MVVM** (Model-View-ViewModel) para garantizar un código limpio, modular y escalable[cite: 8].
+Este proyecto implementa la arquitectura **MVVM** (Model-View-ViewModel) para garantizar un código limpio, modular y escalable.
 
 ## 📱 Características Principales
 
-**Exploración Completa:** Acceso a listados de Personajes, Películas, Planetas, Naves y Vehículos (consumo de +7 endpoints)[cite: 27].
-**Detalles Profundos:** Navegación desde listas generales a vistas detalladas (ej: ver un personaje y sus películas relacionadas)[cite: 15].
-**Búsqueda:** Funcionalidad para buscar y filtrar personajes por nombre[cite: 17].
-**Estados de UI:** Manejo visual de estados de Carga (Loading), Éxito (Success) y Error de red[cite: 18].
+**Exploración Completa:** Acceso a listados de Personajes, Películas, Planetas, Naves y Vehículos (consumo de +7 endpoints).
+**Detalles Profundos:** Navegación desde listas generales a vistas detalladas (ej: ver un personaje y sus películas relacionadas).
+**Búsqueda:** Funcionalidad para buscar y filtrar personajes por nombre.
+**Estados de UI:** Manejo visual de estados de Carga (Loading), Éxito (Success) y Error de red.
 **Interfaz Moderna:** UI construida 100% con Jetpack Compose.
 
 ## 🛠️ Tech Stack (Tecnologías)
 
 * **Lenguaje:** [Kotlin](https://kotlinlang.org/)
-*Arquitectura:** MVVM (Clean Architecture principles) [cite: 14]
+*Arquitectura:** MVVM (Clean Architecture principles)
 **UI:** [Jetpack Compose](https://developer.android.com/jetpack/compose) (Material Design 3)
 **Navegación:** Navigation Compose
-**Networking:** [Retrofit 2](https://square.github.io/retrofit/) + Gson Converter [cite: 13]
+**Networking:** [Retrofit 2](https://square.github.io/retrofit/) + Gson Converter
 **Imágenes:** [Coil](https://coil-kt.github.io/coil/) (Image Loading)
 **Asincronía:** Coroutines & Flow
 
